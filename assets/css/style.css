@@ -59,11 +59,15 @@ h3 {
    align-items: center;
 }
 
+.spasi-kotak {
+   margin-bottom: 16px;
+}
+
 .kotak {
    width: 250px;
    height: 100px;
    background-color: var(--text-color);
-   margin-bottom: 16px;
+   
    border-radius: 11px;
    -webkit-border-radius: 11px;
    -moz-border-radius: 11px;
