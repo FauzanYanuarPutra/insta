@@ -117,7 +117,7 @@ a {
    -o-transition: .4s;
 }
 
-.link a:hover {
+.link .kotak:hover {
    
    transform: scale(1.1);
    -webkit-transform: scale(1.1);
