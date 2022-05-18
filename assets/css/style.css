@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;700&display=swap');
+
+:root {
+   --text-color: #32FFD6;
+   --isi-color: #A0A0A0;
+   --text-kotak: #191A1E;
+}
+
+*,
+body {
+   margin: 0;
+   padding: 0;
+   /* overflow-x: hidden; */
+ 
+}
+
+body {
+   background-color: #191A1E;
+   font-family: 'Inter', sans-serif;
+   color: white;
+}
+
+.container {
+   width: 100%;
+   height: 100vh;
+   background-color: #191A1E;
+   text-align: center;
+}
+
+.perfil {
+   width: 135px;
+   height: 135px;
+   margin: 50px auto;
+   border-radius: 50%;
+   -webkit-border-radius: 50%;
+   -moz-border-radius: 50%;
+   -ms-border-radius: 50%;
+   -o-border-radius: 50%;
+}
+
+h1 {
+   font-size: 28px;
+   color: var(--text-color);
+   padding-bottom:7px;
+
+}
+
+.text{
+   margin-top: -45px;
+}
+
+h3 {
+   color: var(--isi-color);
+}
+
+.link {
+   display: grid;
+   justify-content: center;
+   align-items: center;
+}
+
+.kotak {
+   width: 250px;
+   height: 100px;
+   background-color: var(--text-color);
+   margin-bottom: 16px;
+   border-radius: 11px;
+   -webkit-border-radius: 11px;
+   -moz-border-radius: 11px;
+   -ms-border-radius: 11px;
+   -o-border-radius: 11px;
+}
+
+.kotak h2 {
+   line-height: 100px;
+   color: var(--text-kotak);
+}
+
+/* .kotak-hiasan {
+   width: 10%;
+   height: 150px;
+   background-color: var(--text-color);
+   position: absolute;
+   margin-top: 50px;
+}
+
+.kotak-kanan {
+   right: 0;
+
+   background-color: var(--text-kotak)
+}
+ */
+
+.contact {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   padding: 20px;
+}
+
+
+.contact a img {
+   width: 25px;
+   margin: 8px;
+
+}
+
+a {
+   text-decoration: none;
+}
+
+.link a {
+   transition: .4s;
+   -webkit-transition: .4s;
+   -moz-transition: .4s;
+   -ms-transition: .4s;
+   -o-transition: .4s;
+}
+
+.link a:hover {
+   
+   transform: scale(1.1);
+   -webkit-transform: scale(1.1);
+   -moz-transform: scale(1.1);
+   -ms-transform: scale(1.1);
+   -o-transform: scale(1.1);
+}
+
+
+
+
+
+@media screen and (min-width: 768px) {
+   .perfil {
+   width: 135px;
+   height: 135px;
+   }
+
+   /* .kotak-hiasan {
+   width: 15%;
+   height: 300px;
+   background-color: var(--text-color);
+   position: absolute;
+   margin-top: 50px
+}
+
+.kotak-kanan {
+   right: 0;
+
+   background-color: var(--text-kotak)
+} */
+
+
+}
