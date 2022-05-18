@@ -69,6 +69,12 @@ h3 {
    -moz-border-radius: 11px;
    -ms-border-radius: 11px;
    -o-border-radius: 11px;
+
+   transition: .4s;
+   -webkit-transition: .4s;
+   -moz-transition: .4s;
+   -ms-transition: .4s;
+   -o-transition: .4s;
 }
 
 .kotak h2 {
@@ -109,13 +115,6 @@ a {
    text-decoration: none;
 }
 
-.link a {
-   transition: .4s;
-   -webkit-transition: .4s;
-   -moz-transition: .4s;
-   -ms-transition: .4s;
-   -o-transition: .4s;
-}
 
 .link .kotak:hover {
    
