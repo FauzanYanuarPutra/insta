@@ -188,7 +188,7 @@ a {
 }
 .thumbnail img {
     width: 130px;
-    border: 5px solid #3e3e3e;
+    border: 1px solid #3e3e3e;
 }
 
 @keyframes fadeIn {
@@ -207,9 +207,26 @@ a {
     opacity: 0.5;
 }
 
+/*  */
+ul li {
+   margin-bottom: 15px;
+}
 
+a {
+   color: white;
+   text-decoration: underline var(--text-color);
+}
 
+hr {
+   opacity: .2;
+   margin-top: 50px;
+   margin-bottom: 50px;
+}
 
+.waren {
+   width: 100%;
+   margin: 20px 0;
+}
 
 
 @media screen and (min-width: 768px) {
