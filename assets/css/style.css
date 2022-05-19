@@ -186,9 +186,12 @@ a {
     flex-wrap: wrap;
     justify-content: center;
 }
-.thumbnail img {
-    width: 130px;
-    border: 1px solid #3e3e3e;
+.thumbnail a img {
+    width: 135px;
+    border: 1px solid #A0A0A0;
+    display: flex;
+    flex-wrap: wrap;
+    height: 95px;
 }
 
 @keyframes fadeIn {
