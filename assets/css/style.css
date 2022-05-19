@@ -158,25 +158,13 @@ a {
    /* width: 100%;
    height: 200px;
    background-color:red */
-   padding-bottom: 20px;
+   margin-bottom: 20px;
 }
 
-.kembali {
-   width: 50px;
-   height: 50px;
-   background: #3e3e3e;
-   text-align: center;
-   line-height: 50px;
-   border-radius: 50%;
-   -webkit-border-radius: 50%;
-   -moz-border-radius: 50%;
-   -ms-border-radius: 50%;
-   -o-border-radius: 50%;
-}
 
 .kembali img {
-   width: 25px;
-   height: 25px;
+   width: 50px;
+   height: 50px;
 }
 
 
@@ -184,7 +172,7 @@ a {
 
 
 
-img:hover {
+.thumbnail img:hover {
     opacity: 0.5;
     cursor: pointer;
 }
@@ -245,7 +233,10 @@ img:hover {
 } */
 
 /* about */
-
+.kembali img {
+   width: 80px;
+   height: 80px;
+}
 
 
 
